@@ -2,6 +2,8 @@
 ---
 
 # Nano-Material Adsorption Prediction for CCU
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xavxEburD-rVmt44nv-tdiddOH7HSJlF?usp=sharing)
+
 
 This project uses an XGBoost machine learning model to predict the adsorption capacity (`nads`) of nano-materials for Carbon Capture and Utilization (CCU). The goal is to identify optimal nano-material configurations that efficiently capture CO₂ and H₂O molecules, supporting the development of advanced membranes, sorbents, and catalysts as described in the research paper *"Nano-enabled Membranes, Sorbents, and Catalysts for Addressing the Challenges of Carbon Capture and Utilization (CCU)"*. The model is trained on simulation data (e.g., `is2r_train_optimized.csv`), saved for reuse, and can predict adsorption capacity for new nano-material designs.
 
