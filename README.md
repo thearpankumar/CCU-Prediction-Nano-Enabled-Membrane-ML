@@ -10,11 +10,6 @@ This project uses an XGBoost machine learning model to predict the adsorption ca
 - **Model**: XGBoost regression with parameters optimized for accuracy (RMSE evaluation).
 - **Dataset**: Based on `is2r_train_optimized.csv`, a simulation dataset of nano-material properties.
 - **Output**: Predicted `nads` values, identifying top-performing configurations for CCU applications.
-- **Files**:
-  - `train_xgboost.py`: Trains and saves the model.
-  - `predict_xgboost.py`: Loads the model and predicts `nads` for new data.
-  - `xgboost_nads_model.json`: Saved XGBoost model file.
-  - `is2r_train_optimized.csv`: Training data (not included here; replace with your own).
 
 ## Installation
 ### Prerequisites
