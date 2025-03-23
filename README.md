@@ -24,8 +24,8 @@ This project uses an XGBoost machine learning model to predict the adsorption ca
 ### Setup
 1. Clone or download this repository:
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+   git clone https://github.com/thearpankumar/CCU-Prediction-Nano-Enabled-Membrane-ML.git
+   cd CCU-Prediction-Nano-Enabled-Membrane-ML
    ```
 2. Place your training data (`is2r_train_optimized.csv`) in the project directory, or update the file path in `train_xgboost.py`.
 3. Ensure new input data follows the required format (see [Input Data Format](#input-data-format)).
@@ -36,12 +36,11 @@ Use the saved model to predict `nads` for new data:
 python predict_xgboost.py
 ```
 - **What It Does**:
-  - Loads `xgboost_nads_model.json`.
   - Predicts `nads` for your input data (e.g., `your_new_data.csv`).
   - Saves results to `predictions_output.csv`.
 - **Steps**:
   1. Prepare your input data (see [Input Data Format](#input-data-format)).
-  2. Update the file path in `predict_xgboost.py` (e.g., `"your_new_data.csv"`).
+  2. Update the file path in `CCU.ipynb` (e.g., `"your_new_data.csv"`).
   3. Run the script.
 - **Output Example**:
   ```
