@@ -1,0 +1,61 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual environment directories
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Large data files (keep your dataset out of version control)
+*.csv
+*.lmdb
+*.h5
+*.hdf5
+*.parquet
+
+# Model and output files (save these locally, not in Git)
+xgboost_nads_model.json
+predictions_output.csv
+*.model
+*.json  # Uncomment if you want to track the model file explicitly
+
+# Dependency management
+pip-log.txt
+Pipfile.lock
+requirements.txt  # Uncomment if you generate this and want it tracked
+
+# Miscellaneous
+*.swp
+*.swo
+*.out
+*.prof
+*.pkl
+best_energy_predictor.pth
+energy_predictor.pth
+*.lmdb-lock
+dataset/
